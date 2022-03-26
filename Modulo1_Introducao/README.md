@@ -50,7 +50,7 @@ Computadores robustos com programas que processam pedidos recebidos dos navegado
 
 - `www.ev.org.br`: Endereço.
 
-- `Paginas`: Subárea.
+- `/Paginas/`: Subárea.
 
 - `Home.aspx`: Nome do arquivo.
 
