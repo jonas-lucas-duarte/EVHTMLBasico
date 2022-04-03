@@ -175,3 +175,84 @@ Ao utilizar o nome, você estará restrito às cores básicas, algumas delas sã
 |Gray |Green |Indigo|Lime   |Maroon|
 |Navy |Olive |Purple|Red    |Salmon|
 |Siena|Silver|Teal  |White  |Yellow|
+
+> As cores em HTML são definidas em notação hexadecimal pela combinação dos valores RGB (*Red*, *Green*, *Blue*).
+>
+> Os valores em hexadecimal são definidos em três pares de números, começando em 00 (0 em decimal) e terminando em FF (255 em decimal). Cada símbolo hexadecimal começa sempre com o símbolo *hash* (#).
+>
+> Com a combinação dos três valores é possível obter mais de 16 milhões de cores (255 x 255 x 255).
+
+```html
+<HTML>
+	<HEAD>
+	<TITLE>Atributos encadeados</TITLE>
+	</HEAD>
+
+<BODY>
+	<P><FONT FACE="Verdana" SIZE="5" COLOR="#3289C7">Frase visualizada com a fonte Verdana, tamanho 5 e em uma das tonalidades da cor azul.</FONT></P>
+</BODY>
+
+</HTML>
+```
+
+### Inserindo Quebra de Linha
+
+Por padrão, os navegadores encaixa automaticamente o texto da página *web* de acordo com o tamanho de sua janela. Agora, se você desejar quebrar o texto sempre no mesmo lugar, independente da largura da janela do navegador, você pode utilizar a *tag* `<P></P>` (*paragraph*) ou *tag* `<BR>` (*break*).
+
+```html
+<HTML>
+	<HEAD>
+	<TITLE>Quebra de linha</TITLE>
+	</HEAD>
+
+<BODY>
+	<P>Quando o código HTML não informa ao navegador onde deve ocorrer a quebra de linha.</P>
+	<P>O usuário verá o conteúdo de acordo com o tamanho da janela.</P>
+</BODY>
+
+</HTML>
+```
+
+```html
+<HTML>
+	<HEAD>
+	<TITLE>Quebra de linha</TITLE>
+	</HEAD>
+
+<BODY>
+	<P>Quando o código HTML não informa ao navegador onde deve ocorrer a quebra de linha.<BR>
+	O usuário verá o conteúdo de acordo com o tamanho da janela.</P>
+</BODY>
+
+</HTML>
+```
+
+> Pode-se observar que a *tag* `<P></P>` insere uma linha entre os parágrafos.
+>
+> Já a *tag* `<BR>` insere apenas uma quebra de linha.
+
+### Inserindo Linhas Horizontais numa Página *Web*
+
+Para criar uma linha horizontal, você usa a *tag Horizontal Ruling* `<hr>`. Observe o exemplo:
+
+```html
+<HTML>
+	<HEAD>
+	<TITLE>Inserindo linha horizontal</TITLE>	
+	</HEAD>
+
+<BODY>
+	<HR>
+	<B>Dados pessoais:</B><BR>
+	Nome:<BR>
+	E-mail:<BR>
+	<HR>
+	<B>Dados bancários:</B><BR>
+	Banco:<BR>
+	Agência:<BR>
+	Conta corrente:<BR>
+	<HR>
+</BODY>
+
+</HTML>
+```
