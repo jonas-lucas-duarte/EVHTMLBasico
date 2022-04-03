@@ -169,6 +169,5 @@ A sintaxe fica assim: `<FONT COLOR="cor">` onde "cor" pode ser definida pelo nom
 
 Ao utilizar o nome, você estará restrito às cores básicas, algumas delas são:
 
-|:--:|:---:|:--:|:-----:|:--:|
 |Aqua|Black|Blue|Fuchsia|Gold|
-
+|:--:|:---:|:--:|:-----:|:--:|
