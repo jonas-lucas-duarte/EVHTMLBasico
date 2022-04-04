@@ -256,3 +256,93 @@ Para criar uma linha horizontal, você usa a *tag Horizontal Ruling* `<hr>`. Obs
 
 </HTML>
 ```
+
+### Criando Subtítulos
+
+Agora, você verá como adicionar títulos e subtítulos em uma página *web*. Para isso, utilizará a *tag Heading* `<Hx></Hx>` onde **x** é um número que representa o nível do tópico. Pode-se criar até 6 subtítulos.
+
+```html
+<HTML>
+	<HEAD>
+	<TITLE>Inserir subtítulos</TITLE>
+	</HEAD>
+
+<BODY>
+	<HR>
+	<H1><B>1. Linguagem de marcação HTML</B></H1>
+		<P>O HTML é uma das linguagens de marcação mais utilizada.</P>
+	<HR>
+	<H2><B>1.1 Breve histórico</B></H2>
+		<P>Tudo começou em ...</P>
+</BODY>
+
+</HTML>
+```
+
+### Adicionando Comentários
+
+Pode-se inserir **comentários** para incluir notas, sugestões e explicações que o internauta não deva ver. Para isso, você usa a *tag* ***Comment***, com a sintaxe \<!--xxxxxx-->
+
+```html
+<HTML>
+<HEAD>
+	<TITLE>Inserir comentários</TITLE>
+</HEAD>
+
+<BODY>
+	<HR>
+	<H1><B>1. Linguagem de marcação HTML</B></H1>
+
+		<!--Esta parte do texto precisa ser revisada. Ficará como comentário.
+		<P>O HTML é uma das linguagens de marcação mais utilizada.</P>-->
+	
+	<H2><B>1.1 Breve histórico</B></H2>
+		<P>Tudo começou em ...</P>
+</BODY>
+
+</HTML>
+```
+
+> Normalmente você usa a *tag* **Comment** para fornecer informações sobre o autor do documento ou para adicionar uma mensagem de *Copyright*.
+
+### *Tag* Preformatted
+
+Por padrão, os navegadores não exibem os espaços extras e linhas em branco de um documento HTML. Observe, na imagem abaixo, que há espaços no início da segunda e quarta linhas para diferenciar os versos da música **Pastorinhas**, de Noel Rosa.
+
+```html
+<HTML>
+	<HEAD>
+	<TITLE>Espaços e linhas em branco</TITLE>
+	</HEAD>
+
+<BODY>
+	<!--Trecho da música Pastorinha de Noel Rosa (domínio público)-->
+	<P>A estrela d'alva no céu desponta
+	   E a lua anda tonta com tamanho esplendor
+	   E as pastorinhas pra consolo da lua
+	   Vão cantando na rua lindos versos de amor.</P>
+</BODY>
+
+</HTML>
+```
+
+Para que o usuário visualize a página *web* com os espaços e linhas em branco que você definiu no documento HTML, é necessário utilizar a *tag Preformatted* (Pré-formatado), com a sintaxe `<PRE></PRE>`. O navegador exibe o **bloco de texto** exatamente como está descrito no documento HTML.
+
+```html
+<HTML>
+	<HEAD>
+	<TITLE>Espaços e linhas em branco</TITLE>
+	</HEAD>
+
+<BODY>
+	<!--Trecho da música Pastorinha de Noel Rosa (domínio público)-->
+	<PRE>
+	<P>A estrela d'alva no céu desponta
+	E a lua anda tonta com tamanho esplendor
+E as pastorinhas pra consolo da lua
+	Vão cantando na rua lindos versos de amor.</P>
+	</PRE>
+</BODY>
+
+</HTML>
+```
