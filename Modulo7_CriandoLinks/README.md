@@ -101,3 +101,19 @@ Basta combinar a *tag Anchor* e a *tag Image*.
 - `<img src="img_url">`: ***Tag*** **IMG** *Tag* de inserção de imagem na página.
 
 - `</a>`>: ***Tag*** **ANCHOR** Finalização da tag de *link*.
+
+### Personalizando links
+
+`<BODY LINK="cor" VLINK="#cor" ALINK="cor">`
+
+**LINK**
+
+Especifica a cor dos *links* não acessados da página *web*.
+
+**VLINK**
+
+Especifica a cor dos *links* já acessados da página *web*.
+
+**ALINK**
+
+Especifica a cor dos *links* quando o *mouse* estiver sobre ele.
