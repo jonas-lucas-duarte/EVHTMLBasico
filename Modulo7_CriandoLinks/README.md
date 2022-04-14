@@ -62,7 +62,7 @@ No entanto, será preciso utilizar um atributo que fará o navegador entender pa
 
 `<A href="#nome da seção">Texto explicativo</A>`
 
-`<A name="#nome da seção">Texto explicativo</A>`
+`<A name="nome da seção">Texto explicativo</A>`
 
 ```html
 <HTML>
