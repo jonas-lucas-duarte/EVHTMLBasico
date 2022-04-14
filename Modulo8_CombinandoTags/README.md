@@ -28,3 +28,31 @@
 </BODY>
 </HTML>
 ```
+
+A *tag* ANCHOR é usada para interligar páginas *web*. Por padrão, os navegadores exibem o *link* sublinhado. Caso deseje modificar o formato, você pode combinar a *tag* Anchor com as *tags* de formatação, como a *tag* BOLD e colocar os *links* como itens de uma lista, seja ela ordenada ou não.
+
+### Tag Anchor com Tag Lista e Tag Imagem
+
+```html
+<HTML>
+	<HEAD>
+	<TITLE>Tag ANCHOR e tag IMAGE</TITLE>
+	</HEAD>
+
+<BODY>
+	<P><FONT FACE="Calibri" SIZE="3">Combinando a <i>tag</i> ANCHOR com a <i>tag</i> IMAGE.</P>
+	<UL>
+		<LI><A HREF="Produtos.html"><IMG SRC="truck.png">Produtos</A><BR>
+		<LI><A HREF="Servicos.html"><IMG SRC="tools.png">Serviços</A><BR>
+		<LI><A HREF="Contato.html"><IMG SRC="letter.png">Contato</A><BR>
+	</UL>
+	</FONT>
+</BODY>
+</HTML>
+```
+
+> Lista + Imagens + Linkg = Thumbnails (imagens de tamanhos reduzidos)
+
+Emborra o HTML permita o uso das tags *HEIGHT* e *WIDTH* para especificar a altura e largura de uma imagem, este recurso não é o mais indicado, já que, mesmo reduzindo as dimensões da imagem na tela, o tamanho do arquivo continua o mesmo.
+
+O procedimento mais adequado é utilizar um programa de imagens (como o Paint, do Windows) para produzir uma versão da imagem com tamanho reduzido.
